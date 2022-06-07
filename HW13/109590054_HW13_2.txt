@@ -1,0 +1,11 @@
+Question 1:
+	In which file of the DroidCafeWithSettings project do you define the array of entries and the array of values for the ListPreference?
+	 Ans:strings.xml
+
+Question 2:
+	In which file of the DroidCafeWithSettings project do you use the array of entries and the array of values in setting up the ListPreference, and also set the ListPreference key and default value? 
+	 Ans:pref_general.xml
+
+Question3:
+	How do you set up a settings Activity and a Fragment with a SwitchPreference for the UI, and still remain compatible with the v7 appcompat library for backward compatibility with older versions of Android?
+	 Ans:Use a settings activity that extends Activity, a fragment that extends PreferenceFragment, and a SwitchPreference for the UI.
